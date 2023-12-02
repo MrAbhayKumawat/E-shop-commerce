@@ -1,0 +1,11 @@
+ #root{
+  max-width: auto;
+  margin: auto;
+  padding: 1rem;
+  /* text-align: center; */
+}
+button{
+  color: white;
+  background-color: brown;
+}
+

@@ -1,0 +1,58 @@
+body {
+margin: 0;
+  padding: 0;
+
+
+}
+img{
+    margin-top: 8%;
+    height: 20vh; 
+  width: 50%;
+    
+}
+h2{
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+}
+.Registrationform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+    align-items: center;
+margin: auto;
+margin-top: 6.5%;
+
+top: 10px;
+    box-shadow: 0px 0px 10px rgba(175, 164, 164, 0.5);
+    
+width: 40%;
+    height: 60vh;
+ 
+    /* width: auto */
+}
+.Registration-Box{
+    margin-bottom: 15%;
+
+
+}
+.btn{
+   
+   width: 100%;
+   max-width: auto;
+   background-color: rgb(72, 13, 13) !important;
+}
+
+@media (min-width: 400px) and (max-width:880px) {
+    img{
+      
+        height: 10vh; 
+      width: 50%;
+        
+    }
+    .Registrationform{
+        margin-top: 30%;
+        width: 100%;
+    }
+    
+}

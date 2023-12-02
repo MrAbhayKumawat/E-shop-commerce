@@ -1,0 +1,151 @@
+p {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 1.5%;
+  align-items: center;
+}
+.container {
+    padding-left: 10%;
+  padding-top: 3%;
+  padding-right: 10%;
+  /* padding: 12px 35px 0 0; */
+  flex-wrap: wrap;
+height: auto;
+  min-width: auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+input {
+  background-color: transparent;
+  border: none;
+  height: 44px;
+  color: black;
+  padding: 12px 12px 12px 12px;
+  width: 416.4px;
+  border-radius: 5px;
+  border: 1px solid #d4d5d9;
+}
+.City-state {
+  background-color: #f5f5f6;
+  border: none;
+  color: black;
+  height: 44px;
+  padding: 12px 12px 12px 12px;
+  width: 197px;
+  border-radius: 5px;
+  
+  border: 1px solid #d4d5d9;
+}
+
+.contact-details {
+    min-height: 707px;
+    height: auto;
+  border: 1px solid rgb(172, 168, 168);
+  width: 448px;
+  text-align: center;
+  padding: 0 0 70px 0;
+  box-sizing: border-box;
+}
+.Price-details{
+    /* min-height: 350px; */
+    height:300px;
+  /* border: 1px solid rgb(172, 168, 168); */
+  width: 350px;
+  text-align: center;
+  padding:0.5%;
+  box-sizing: border-box;
+}
+.price-data{
+    display: flex;
+    justify-content: space-between;
+}
+.SAVE-ADDRESS-AS {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 4%;
+}
+
+.C-Btn{
+    min-width: 416px ;
+    height: 44px;
+    padding: 2.5% !important;
+    font-size: 1.1rem !important;
+    border-radius: 5px;
+    border: none !important;
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 1.2  rem !important;
+    background-color: rgb(61, 6, 6) !important;
+}
+@media(min-width: 375px)and (max-width:1200px){
+  .container {
+   
+    display: flex;
+    
+  }
+
+  
+}
+@media(min-width: 350px){
+  .container {
+   
+    display: flex;
+    
+  }
+  input {
+    background-color: transparent;
+    border: none;
+    height: 44px;
+    color: black;
+    padding: 12px 12px 12px 12px;
+    width: 350.4px;
+    border-radius: 5px;
+    border: 1px solid #d4d5d9;
+  }
+  .City-state {
+  background-color: #f5f5f6;
+  border: none;
+  color: black;
+  height: 44px;
+  padding: 12px 12px 12px 12px;
+  width: 350.4px;
+  border-radius: 5px;
+
+  border: 1px solid #d4d5d9;
+}
+
+.contact-details {
+    min-height: 707px;
+    height: auto;
+  border: 1px solid rgb(172, 168, 168);
+  width: 360px;
+  text-align: center;
+  padding: 0 0 70px 0;
+  box-sizing: border-box;
+}
+.C-Btn{
+  min-width: 320px ;
+  height: 44px;
+  padding: 2.5% !important;
+  font-size: 1.1rem !important;
+  border-radius: 5px;
+  border: none !important;
+  font-weight: 700;
+  color:white;
+  margin-top: 5%;
+  font-size: 1.2  rem !important;
+  background-color: rgb(61, 6, 6) !important;
+}
+  
+.Price-details{
+  /* min-height: 350px; */
+  margin-top: 5%;
+  height:300px;
+/* border: 1px solid rgb(172, 168, 168); */
+width: 350px;
+text-align: center;
+padding:0.5%;
+box-sizing: border-box;
+}
+}
