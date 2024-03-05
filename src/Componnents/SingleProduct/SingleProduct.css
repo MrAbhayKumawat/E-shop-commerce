@@ -1,5 +1,12 @@
+body{
+  overflow-x: hidden;
+
+}
+
 .card-item-single {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Spro-card {
@@ -31,7 +38,7 @@ p {}
   background-color: rgb(61, 6, 6) !important;
 }
 
-@media (min-width: 375px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1000px) {
   .card-item-single {
     display: flex;
     flex-direction: column;

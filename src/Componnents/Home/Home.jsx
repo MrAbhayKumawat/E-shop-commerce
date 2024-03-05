@@ -45,7 +45,7 @@ function Home() {
   };
 
   useEffect(() => {
-    fetchData();
+    fetchData();  
     fetchData2();
   }, []);
 
@@ -63,18 +63,19 @@ function Home() {
               alt="img"
               onClick={() => navigate("/SingleProduct", { state: product.id })}
             ></img>
-            <h3>{product.title}</h3>
+            <h3 style={{fontSize:"1rem",fontWeight:"bold", marginTop:"3%"}}>{product.title}</h3>
             <p>{product.description.slice(0, 43)}</p>
-            <h5>
-              Rating
+            <h5 style={{display:"flex",alignItems:"center", fontSize:"0.8rem"}}>
+             <span>Rating</span>
               <Rating
+                style={{fontSize:"0.8rem"}}
                 name="read-only"
                 value={Math.floor(product.rating)}
                 readOnly
               />
             </h5>
-            <h5>Discount {Math.floor(product.discountPercentage)}%</h5>
-            <h4>{product.price}</h4>
+            <h5 style={{fontSize:"0.8rem"}}>Discount {Math.floor(product.discountPercentage)}%</h5>
+            <h4 style={{fontSize:"0.9rem"}}>{product.price}</h4>
             <button
               className="btnh"
               onClick={() => navigate("/SingleProduct", { state: product.id })}
